@@ -4,8 +4,6 @@ them for idea. One of them gave me an idea to make application for FOP to genera
 <br> So, it this repository, you can check my work and result of my work!
 
 > If you want to use this, you should download <a href="https://www.microsoft.com/en-US/download/details.aspx?id=101064">SQL Server Express</a>
-
-![Image text](https://github.com/GTeasera/PEBillApplication/blob/main/preview.png)
 ```
 CREATE TABLE [dbo].[MyCompany]
 (
@@ -16,3 +14,5 @@ CREATE TABLE [dbo].[MyCompany]
     CONSTRAINT PK_MyCompany_Id primary key (Id)
 );
 ```
+
+![Image text](https://github.com/GTeasera/PEBillApplication/blob/main/preview.png)
