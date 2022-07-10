@@ -1,7 +1,6 @@
 # PEBillApplication 🧾
-First of all, short story tell. In my IT Academy, I took a task to make an desctop application in WPF. After that a went to my close friends and parents and asked 
-them for idea. One of them gave me an idea to make application for FOP to generate bills using DataBase, i think, it will be a SQL Server.
-<br> So, it this repository, you can check my work and result of my work!
+Let me start with a short story. At my IT academy, I got an assignment to make a desktop application in WPF. After that I went to my close friends and parents and asked them for an idea. One of them gave me the idea to make an application for individual entrepreneurs to generate invoices using a database, I think it will be SQL Server.
+<br> So, in this repository, you can check my work and result of my work!
 
 > If you want to use this, you should download <a href="https://www.microsoft.com/en-US/download/details.aspx?id=101064">SQL Server Express</a>
 ```TSQL
