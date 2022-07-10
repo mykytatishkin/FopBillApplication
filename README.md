@@ -6,3 +6,13 @@ them for idea. One of them gave me an idea to make application for FOP to genera
 > If you want to use this, you should download <a href="https://www.microsoft.com/en-US/download/details.aspx?id=101064">SQL Server Express</a>
 
 ![Image text](https://github.com/GTeasera/PEBillApplication/blob/main/preview.png)
+```
+CREATE TABLE [dbo].[MyCompany]
+(
+	[Id] INT NOT NULL, 
+    [Name] NCHAR(255) NOT NULL, 
+    [Code] NCHAR(50) NOT NULL, 
+    [Address] NCHAR(255) NOT NULL
+    CONSTRAINT PK_MyCompany_Id primary key (Id)
+);
+```
