@@ -23,7 +23,7 @@
                 <TextBox materialDesign:HintAssist.Hint="Enter your Name" Style="{StaticResource MaterialDesignFloatingHintTextBox}"/>
                 <TextBox materialDesign:HintAssist.Hint="Enter your Code" Style="{StaticResource MaterialDesignFloatingHintTextBox}"/>
                 <TextBox materialDesign:HintAssist.Hint="Enter your Address" Style="{StaticResource MaterialDesignFloatingHintTextBox}"/>
-                <Button HorizontalAlignment="Right" Content="Continue" Margin="0 20" Style="{StaticResource MaterialDesignOutlinedDarkButton}"/>
+                <Button HorizontalAlignment="Right" Content="Continue" Margin="0 20" Style="{StaticResource MaterialDesignOutlinedDarkButton}" Click="Button_Click"/>
             </StackPanel>
         </Border>
     </Grid>
