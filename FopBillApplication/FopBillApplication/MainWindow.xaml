@@ -19,11 +19,11 @@
                     <Button HorizontalAlignment="Left" Content="GitHub"/>
                 </Grid>
 
-                <TextBox materialDesign:HintAssist.Hint="Enter your ID" Style="{StaticResource MaterialDesignFloatingHintTextBox}"/>
-                <TextBox materialDesign:HintAssist.Hint="Enter your Name" Style="{StaticResource MaterialDesignFloatingHintTextBox}"/>
-                <TextBox materialDesign:HintAssist.Hint="Enter your Code" Style="{StaticResource MaterialDesignFloatingHintTextBox}"/>
-                <TextBox materialDesign:HintAssist.Hint="Enter your Address" Style="{StaticResource MaterialDesignFloatingHintTextBox}"/>
-                <Button HorizontalAlignment="Right" Content="Continue" Margin="0 20" Style="{StaticResource MaterialDesignOutlinedDarkButton}" Click="Button_Click"/>
+                <TextBox x:Name="textBoxID" materialDesign:HintAssist.Hint="Enter your ID" Style="{StaticResource MaterialDesignFloatingHintTextBox}"/>
+                <TextBox x:Name="textBoxName" materialDesign:HintAssist.Hint="Enter your Name" Style="{StaticResource MaterialDesignFloatingHintTextBox}"/>
+                <TextBox x:Name="textBoxCode" materialDesign:HintAssist.Hint="Enter your Code" Style="{StaticResource MaterialDesignFloatingHintTextBox}"/>
+                <TextBox x:Name="textBoxAddress" materialDesign:HintAssist.Hint="Enter your Address" Style="{StaticResource MaterialDesignFloatingHintTextBox}"/>
+                <Button HorizontalAlignment="Right" Content="Continue" Margin="0 20" Style="{StaticResource MaterialDesignOutlinedDarkButton}" Click="MyCompanyRegistration"/>
             </StackPanel>
         </Border>
     </Grid>

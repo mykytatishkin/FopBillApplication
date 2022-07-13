@@ -1,5 +1,7 @@
-﻿using System;
+﻿using Microsoft.IdentityModel.Logging;
+using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -25,9 +27,38 @@ namespace FopBillApplication
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void MyCompanyRegistration(object sender, RoutedEventArgs e)
         {
-
+            int id;
+            bool isNum = int.TryParse(textBoxID.Text, out id);
+            if (isNum)
+            {
+                string userID = textBoxID.Text.Trim();
+            }
+            else
+            {
+                //MessageBox.Show("This is not a ID, please enter correctly!");
+                textBoxID.ToolTip = "This is not a ID, please enter correctly!";
+                textBoxID.Background = Brushes.Yellow;
+                Debugger.Launch();
+            }
+            
+            string userName = textBoxName.Text;
+            
+            int code;
+            isNum = int.TryParse(textBoxCode.Text, out code);
+            if (isNum) 
+            { 
+                string userCode = textBoxCode.Text;
+            }
+            else
+            {
+                // string codeError = LogHelper.Logger.Errors();
+                // throw new Exception("This is not a code, please enter correctly");
+                MessageBox.Show("This is not a code, please enter correctly!");
+                Debugger.Launch();
+            }
+            string userAddress = textBoxAddress.Text.ToLower();
         }
     }
 }

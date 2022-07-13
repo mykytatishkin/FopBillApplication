@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <PackageReference Include="MaterialDesignThemes" Version="4.5.0" />
+    <PackageReference Include="Microsoft.IdentityModel.Logging" Version="6.21.0" />
   </ItemGroup>
 
 </Project>

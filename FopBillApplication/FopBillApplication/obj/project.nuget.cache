@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "n/uOj1NMM7sN5RcnxfDAW3FbTLprmdjiOCEyPa1H4IxePTfekAO2Ve4vNvJ1j41BhKHekhFl4UA3wX7qI50ESQ==",
+  "dgSpecHash": "MGpNsCN0XRB+WsXi414AG0FT0i2W1et4XUDHVrN7vsBe/w63KSSxIwge8jSiWruF/CqAncrkdVZDwxKvGvFxfw==",
   "success": true,
   "projectFilePath": "D:\\GitHub\\FopBillApplication\\FopBillApplication\\FopBillApplication\\FopBillApplication.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Nikita\\.nuget\\packages\\materialdesigncolors\\2.0.6\\materialdesigncolors.2.0.6.nupkg.sha512",
-    "C:\\Users\\Nikita\\.nuget\\packages\\materialdesignthemes\\4.5.0\\materialdesignthemes.4.5.0.nupkg.sha512"
+    "C:\\Users\\Nikita\\.nuget\\packages\\materialdesignthemes\\4.5.0\\materialdesignthemes.4.5.0.nupkg.sha512",
+    "C:\\Users\\Nikita\\.nuget\\packages\\microsoft.identitymodel.abstractions\\6.21.0\\microsoft.identitymodel.abstractions.6.21.0.nupkg.sha512",
+    "C:\\Users\\Nikita\\.nuget\\packages\\microsoft.identitymodel.logging\\6.21.0\\microsoft.identitymodel.logging.6.21.0.nupkg.sha512"
   ],
   "logs": []
 }

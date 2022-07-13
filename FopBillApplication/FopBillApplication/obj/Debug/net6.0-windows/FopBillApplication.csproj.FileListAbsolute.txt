@@ -23,3 +23,5 @@ D:\GitHub\FopBillApplication\FopBillApplication\FopBillApplication\obj\Debug\net
 D:\GitHub\FopBillApplication\FopBillApplication\FopBillApplication\obj\Debug\net6.0-windows\FopBillApplication.pdb
 D:\GitHub\FopBillApplication\FopBillApplication\FopBillApplication\obj\Debug\net6.0-windows\FopBillApplication.genruntimeconfig.cache
 D:\GitHub\FopBillApplication\FopBillApplication\FopBillApplication\obj\Debug\net6.0-windows\ref\FopBillApplication.dll
+D:\GitHub\FopBillApplication\FopBillApplication\FopBillApplication\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Abstractions.dll
+D:\GitHub\FopBillApplication\FopBillApplication\FopBillApplication\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
