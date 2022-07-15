@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitHub\\FopBillApplication\\FopBillApplication\\FopBillApplication\\FopBillApplication.csproj": {}
+    "D:\\GitHub\\FopBillApplication\\PEBillApplication\\FopBillApplication\\FopBillApplication.csproj": {}
   },
   "projects": {
-    "D:\\GitHub\\FopBillApplication\\FopBillApplication\\FopBillApplication\\FopBillApplication.csproj": {
+    "D:\\GitHub\\FopBillApplication\\PEBillApplication\\FopBillApplication\\FopBillApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub\\FopBillApplication\\FopBillApplication\\FopBillApplication\\FopBillApplication.csproj",
+        "projectUniqueName": "D:\\GitHub\\FopBillApplication\\PEBillApplication\\FopBillApplication\\FopBillApplication.csproj",
         "projectName": "FopBillApplication",
-        "projectPath": "D:\\GitHub\\FopBillApplication\\FopBillApplication\\FopBillApplication\\FopBillApplication.csproj",
+        "projectPath": "D:\\GitHub\\FopBillApplication\\PEBillApplication\\FopBillApplication\\FopBillApplication.csproj",
         "packagesPath": "C:\\Users\\Nikita\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub\\FopBillApplication\\FopBillApplication\\FopBillApplication\\obj\\",
+        "outputPath": "D:\\GitHub\\FopBillApplication\\PEBillApplication\\FopBillApplication\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

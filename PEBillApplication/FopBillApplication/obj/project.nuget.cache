@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MGpNsCN0XRB+WsXi414AG0FT0i2W1et4XUDHVrN7vsBe/w63KSSxIwge8jSiWruF/CqAncrkdVZDwxKvGvFxfw==",
+  "dgSpecHash": "RVvr0nxUz9XPQbeVUAVkifmk2JyynUywexIttHBHUFOe2g53YsbWxdiLJzIfcwpWVimbVJL3DVj2u4jIB9egVQ==",
   "success": true,
-  "projectFilePath": "D:\\GitHub\\FopBillApplication\\FopBillApplication\\FopBillApplication\\FopBillApplication.csproj",
+  "projectFilePath": "D:\\GitHub\\FopBillApplication\\PEBillApplication\\FopBillApplication\\FopBillApplication.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Nikita\\.nuget\\packages\\materialdesigncolors\\2.0.6\\materialdesigncolors.2.0.6.nupkg.sha512",
     "C:\\Users\\Nikita\\.nuget\\packages\\materialdesignthemes\\4.5.0\\materialdesignthemes.4.5.0.nupkg.sha512",
