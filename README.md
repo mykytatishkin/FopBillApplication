@@ -15,4 +15,8 @@ CREATE TABLE [dbo].[MyCompany]
 );
 ```
 
+## New Design:
+![Image text](https://github.com/GTeasera/PEBillApplication/blob/main/preview.png)
+
+## Old Design:
 ![Image text](https://github.com/GTeasera/PEBillApplication/blob/main/preview.png)
