@@ -16,7 +16,7 @@ CREATE TABLE [dbo].[MyCompany]
 ```
 
 ## New Design:
-![Image text](https://github.com/GTeasera/PEBillApplication/blob/main/preview.png)
+![Image text](https://github.com/GTeasera/FopBillApplication/blob/main/new%20design.png)
 
 ## Old Design:
 ![Image text](https://github.com/GTeasera/PEBillApplication/blob/main/preview.png)
