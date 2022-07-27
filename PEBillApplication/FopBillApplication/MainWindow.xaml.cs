@@ -63,6 +63,9 @@ namespace FopBillApplication
                 Debugger.Launch();
             }
             string userAddress = textBoxAddress.Text.ToLower();
+
+
+            /* Далее данные нужно отправить в БД */
         }
     }
 }
