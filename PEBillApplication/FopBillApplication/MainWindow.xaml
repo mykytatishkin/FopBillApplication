@@ -6,25 +6,33 @@
         xmlns:local="clr-namespace:FopBillApplication"
         mc:Ignorable="d"
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
-        Title="PEBA" Height="600" Width="800">
-    <Frame Name="MainFrame" Background="#AF4425" NavigationUIVisibility="Hidden"/>
+        Title="PEBA" Height="1080" Width="1920">
+
     <Grid Background="#AF4425">
-        <Border MinWidth="400" Margin="15px" Background="#fff" VerticalAlignment="Center" Padding="40px" MaxWidth="550" CornerRadius="24">
+        <Border MinWidth="400" Margin="15,0,15,0" Background="#fff" VerticalAlignment="Center" Padding="40px" MaxWidth="1050" CornerRadius="24" Height="864">
             <Border.Effect>
                 <DropShadowEffect BlurRadius="30" Color="#e38664" ShadowDepth="0"/>
             </Border.Effect>
             <StackPanel>
-                <TextBlock Text="PEBillApplication" FontSize="30" FontWeight="Bold" Margin="0 0 0 20"/>
+                <TextBlock Text="Bill Generator" FontSize="30" FontWeight="Bold" Margin="0 0 0 20"/>
 
                 <Grid Margin="0 0 0 20">
                     <Button HorizontalAlignment="Left" Content="GitHub" Style="{StaticResource MaterialDesignPaperSecondaryButton}"/>
                 </Grid>
 
+                <TextBlock Text="PE Data" FontSize="20" FontWeight="DemiBold" Margin="0 0 0 3"/>
                 <TextBox x:Name="textBoxID" materialDesign:HintAssist.Hint="Enter your ID" Style="{StaticResource MaterialDesignFloatingHintTextBox}"/>
                 <TextBox x:Name="textBoxName" materialDesign:HintAssist.Hint="Enter your Name" Style="{StaticResource MaterialDesignFloatingHintTextBox}"/>
                 <TextBox x:Name="textBoxCode" materialDesign:HintAssist.Hint="Enter your Code" Style="{StaticResource MaterialDesignFloatingHintTextBox}"/>
                 <TextBox x:Name="textBoxAddress" materialDesign:HintAssist.Hint="Enter your Address" Style="{StaticResource MaterialDesignFloatingHintTextBox}"/>
-                <Button HorizontalAlignment="Right" Content="Continue" Margin="0 20" Style="{StaticResource MaterialDesignPaperSecondaryButton}" Click="MyCompanyRegistration"/>
+                <Button HorizontalAlignment="Right" Content="Save" Margin="0 20" Style="{StaticResource MaterialDesignPaperSecondaryButton}" Click="MyCompanyRegistration"/>
+
+                <TextBlock Text="Bill Data" FontSize="20" FontWeight="DemiBold" Margin="0 0 0 3"/>
+                <TextBox x:Name="textBoxItemName" materialDesign:HintAssist.Hint="Enter item name" Style="{StaticResource MaterialDesignFloatingHintTextBox}"/>
+                <TextBox x:Name="textBoxItemPrice" materialDesign:HintAssist.Hint="Enter item price" Style="{StaticResource MaterialDesignFloatingHintTextBox}"/>
+                
+                <Button HorizontalAlignment="Center" Content="Generate Bill" Margin="120" Style="{StaticResource MaterialDesignPaperSecondaryButton}" Click="BillGenerate"/>
+
             </StackPanel>
         </Border>
     </Grid>

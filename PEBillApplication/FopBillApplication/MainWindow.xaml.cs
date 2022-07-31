@@ -31,9 +31,10 @@ namespace FopBillApplication
         {
             int id;
             bool isNum = int.TryParse(textBoxID.Text, out id);
+            
             if (isNum)
             {
-                string userID = textBoxID.Text.Trim();
+                string userID = textBoxID.Text.Trim();                                      // # USER ID
                 textBoxID.Background = Brushes.White;
             }
             else
@@ -44,13 +45,14 @@ namespace FopBillApplication
                 Debugger.Launch();
             }
             
-            string userName = textBoxName.Text;
-            
+            string userName = textBoxName.Text;                                            // # USER NAME
+
             int code;
             isNum = int.TryParse(textBoxCode.Text, out code);
+            
             if (isNum) 
             { 
-                string userCode = textBoxCode.Text;
+                string userCode = textBoxCode.Text;                                        // # USER CODE
                 textBoxCode.Background = Brushes.White;
             }
             else
@@ -62,10 +64,30 @@ namespace FopBillApplication
                 textBoxCode.Background = Brushes.Red;
                 Debugger.Launch();
             }
-            string userAddress = textBoxAddress.Text.ToLower();
+            string userAddress = textBoxAddress.Text.ToLower();                            // # USER ADDRESS
 
 
             /* Далее данные нужно отправить в БД */
+        }
+
+        private void BillGenerate(object sender, RoutedEventArgs e)
+        {
+            string itemName = textBoxItemName.Text;                                       // # ITEM NAME
+
+            double price;
+            bool isNum = double.TryParse(textBoxItemPrice.Text, out price);
+            if (isNum) 
+            { 
+                double itemPrice = price;                                                // # ITEM PRICE
+                textBoxItemPrice.Background = Brushes.White;
+            }
+            else
+            {
+                MessageBox.Show("This is not a price, please enter correctly!");
+                textBoxItemPrice.ToolTip = "This is not a price, please enter correctly!";
+                textBoxItemPrice.Background = Brushes.Red;
+                Debugger.Launch();
+            }
         }
     }
 }
